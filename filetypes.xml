@@ -7,6 +7,7 @@
 <filetype><header>00 00 00 14 66 74 79 70 69 73 6F 6D</header><extension>MP4</extension><description>ISO Base Media (MPEG-4) v1</description></filetype>
 <filetype><header>00 00 00 14 66 74 79 70 71 74 20 20</header><extension>MOV</extension><description>QuickTime movie</description></filetype>
 <filetype><header>00 00 00 18 66 74 79 70 33 67 70 35</header><extension>MP4</extension><description>MPEG-4 video</description></filetype>
+<filetype><header>00 00 00 20 66 74 79 70 68 65 69 63</header><extension>HEIC</extension><description>High Efficiency Image Container (of H.265 images)</description></filetype>
 <filetype><header>00 00 00 18 66 74 79 70 6D 70 34 32</header><extension>M4V</extension><description>MPEG-4 video/QuickTime</description></filetype>
 <filetype><header>00 00 00 1C 66 74 79 70 4D 53 4E 56 01 29 00 46 4D 53 4E 56 6D 70 34 32</header><extension>MP4</extension><description>MPEG-4 video</description></filetype>
 <filetype><header>00 00 00 20 66 74 79 70 33 67 70</header><extension>3GG, 3GP, 3G2</extension><description>3rd Generation Partnership Project 3GPP2 multimedia</description></filetype>
@@ -37,7 +38,10 @@
 <filetype><header>00 11 AF</header><extension>FLI</extension><description>FLIC Animation</description></filetype>
 <filetype><header>00 1E 84 90 00 00 00 00</header><extension>SNM</extension><description>Netscape Communicator (v4) mail folder</description></filetype>
 <filetype><header>00 20 AF 30</header><extension>TPL</extension><description>Wii images container</description></filetype>
+<filetype><header>00 3B 05 00 01 00 00 00</header><extension>DB</extension><description>Paessler PRTG Monitoring System database</description></filetype>
 <filetype><header>00 5C 41 B1 FF</header><extension>ENC</extension><description>Mujahideen Secrets 2 encrypted</description></filetype>
+<filetype><header>00 6D 02</header><extension>NC</extension><description>mcrypt v2.2 encrypted</description></filetype>
+<filetype><header>00 6D 03</header><extension>NC</extension><description>mcrypt v2.5 encrypted</description></filetype>
 <filetype><header>00 BF</header><extension>SOL</extension><description>Adobe Flash shared object (e.g. Flash cookies)</description></filetype>
 <filetype><header>00 FF FF FF FF FF FF FF FF FF FF 00 00 02 00 01</header><extension>MDF</extension><description>Alcohol 120% CD image</description></filetype>
 <filetype><header>01 00 00 00</header><extension>EMF</extension><description>Extended (Enhanced) Windows Metafile Format, printer spool</description></filetype>
@@ -47,6 +51,7 @@
 <filetype><header>01 01 47 19 A4 00 00 00 00 00 00 00</header><extension>TBI</extension><description>The Bat! secure e-mail Message Base Index</description></filetype>
 <filetype><header>01 0F 00 00</header><extension>MDF</extension><description>Microsoft SQL Server 2000 database</description></filetype>
 <filetype><header>01 10</header><extension>TR1</extension><description>Novell LANalyzer capture</description></filetype>
+<filetype><header>01 C0 0C</header><extension>HED</extension><description>HighEdit document</description></filetype>
 <filetype><header>01 DA 01 01 00 03</header><extension>RGB</extension><description>Silicon Graphics RGB Bitmap</description></filetype>
 <filetype><header>01 FF 02 04 03 02</header><extension>DRW</extension><description>Micrografx vector graphic</description></filetype>
 <filetype><header>02 64 73 73</header><extension>DSS</extension><description>Digital Speech Standard (Olympus, Grundig, Philips) v2</description></filetype>
@@ -146,7 +151,7 @@
 <filetype><header>41 43 31 30</header><extension>DWG</extension><description>Generic AutoCAD drawing</description></filetype>
 <filetype><header>41 43 76</header><extension>SLE</extension><description>Steganos Security Suite virtual secure drive</description></filetype>
 <filetype><header>41 43 53 44</header><extension>n/a</extension><description>Miscellaneous AOL parameter and information</description></filetype>
-<filetype><header>41 45 53</header><extension>AES</extension><description>AES Crypt format</description></filetype>
+<filetype><header>41 45 53</header><extension>AES</extension><description>AES Crypt format (4th byte is version number 0-2)</description></filetype>
 <filetype><header>41 4D 59 4F</header><extension>SYW</extension><description>Harvard Graphics symbol graphic</description></filetype>
 <filetype><header>41 4F 4C 20 46 65 65 64 62 61 67</header><extension>BAG</extension><description>AOL and AIM buddy list</description></filetype>
 <filetype><header>41 4F 4C 44 42</header><extension>ABY, IDX</extension><description>AOL database: address book (ABY) and user configuration</description></filetype>
@@ -168,6 +173,9 @@
 <filetype><header>43 41 54 20</header><extension>IFF</extension><description>Electronic Arts' Interchange Format</description></filetype>
 <filetype><header>43 42 46 49 4C 45</header><extension>CBD</extension><description>WordPerfect dictionary (unconfirmed)</description></filetype>
 <filetype><header>43 44 30 30 31</header><extension>ISO</extension><description>ISO-9660 CD Disc Image</description></filetype>
+<filetype><header>43 44 46 01</header><extension>NC</extension><description>NetCDF (Network Common Data Form) v3</description></filetype>
+<filetype><header>43 44 46 02</header><extension>NC</extension><description>NetCDF (Network Common Data Form) v3 64-bit</description></filetype>
+<filetype><header>43 44 46</header><extension>NC</extension><description>NetCDF (Network Common Data Form) generic</description></filetype>
 <filetype><header>43 49 53 4F</header><extension>CSO</extension><description>Compressed ISO (CISO) CD image</description></filetype>
 <filetype><header>43 4D 4D 4D 15 00 00 00</header><extension>DB</extension><description>Windows 7 thumbcache_sr.db or other thumbcache</description></filetype>
 <filetype><header>43 4D 58 31</header><extension>CLB</extension><description>Corel Binary metafile</description></filetype>
@@ -198,7 +206,7 @@
 <filetype><header>45 52 46 53 53 41 56 45 44 41 54 41 46 49 4C 45</header><extension>DAT</extension><description>Kroll EasyRecovery Saved Recovery State</description></filetype>
 <filetype><header>45 50</header><extension>MDI</extension><description>Microsoft Document Imaging</description></filetype>
 <filetype><header>45 56 46 09 0D 0A FF 00</header><extension>Enn</extension><description>Expert Witness Compression Format (EWF)</description></filetype>
-<filetype><header>45 56 46 32 0D 0A 81</header><extension>Exnn</extension><description>EnCase Evidence Format Version 2 (Ex01)</description></filetype>
+<filetype><header>45 56 46 32 0D 0A 81</header><extension>Exnn</extension><description>EnCase Evidence Format Version 2 (Exnn: nn=segment sequence number)</description></filetype>
 <filetype><header>45 6C 66 46 69 6C 65 00</header><extension>EVTX</extension><description>Windows Vista event log</description></filetype>
 <filetype><header>45 86 00 00 06 00</header><extension>QBB</extension><description>Intuit QuickBooks backup</description></filetype>
 <filetype><header>46 41 58 43 4F 56 45 52 2D 56 45 52</header><extension>CPE</extension><description>Microsoft Fax Cover Sheet</description></filetype>
@@ -243,10 +251,11 @@
 <filetype><header>4C 00 00 00 01 14 02 00</header><extension>LNK</extension><description>Windows shell link (shortcut)</description></filetype>
 <filetype><header>4C 01</header><extension>OBJ</extension><description>Microsoft Common Object Format (COFF) relocatable</description></filetype>
 <filetype><header>4C 41 3A</header><extension>DST</extension><description>Tajima embroidery sticj image</description></filetype>
+<filetype><header>4C 45 46 32 0D 0A 82 00</header><extension>Lxnn</extension><description>Expert Witness Logical Format (EWF) v2 for Guidance Software Encase (Lxnn: nn=segment sequence number)</description></filetype>
 <filetype><header>4C 49 53 54</header><extension>IFF</extension><description>Electronic Arts' Interchange Format</description></filetype>
 <filetype><header>4C 4E 02 00</header><extension>GID, HLP</extension><description>Windows Help (HLP) index (GID)</description></filetype>
 <filetype><header>4C 50 46 20 00 01</header><extension>ANM</extension><description>DeluxePaint Animation</description></filetype>
-<filetype><header>4C 56 46 09 0D 0A FF 00</header><extension>Enn</extension><description>Logical Evidence Format (EWF-L01)</description></filetype>
+<filetype><header>4C 56 46 09 0D 0A FF 00</header><extension>Lnn</extension><description>Logical Evidence Format (EWF-L01) for Guidance Software Encase (Lnn: nn=segment sequence number)</description></filetype>
 <filetype><header>4D 2D 57 20 50 6F 63 6B 65 74 20 44 69 63 74 69</header><extension>PDB</extension><description>Merriam-Webster Pocket Dictionary</description></filetype>
 <filetype><header>4D 41 52 31 00</header><extension>MAR</extension><description>Mozilla archive</description></filetype>
 <filetype><header>4D 41 52 43</header><extension>MAR</extension><description>Microsoft/MSN MARC archive</description></filetype>
@@ -288,6 +297,7 @@
 <filetype><header>50 41 47 45 44 55 36 34</header><extension>DMP</extension><description>Windows 64-bit memory dump</description></filetype>
 <filetype><header>50 41 47 45 44 55 4D 50</header><extension>DMP</extension><description>Windows memory dump</description></filetype>
 <filetype><header>50 41 58</header><extension>PAX</extension><description>PAX password protected bitmap</description></filetype>
+<filetype><header>50 44 4E 33</header><extension>PDN</extension><description>Paint.NET image (v3)</description></filetype>
 <filetype><header>50 45 53 54</header><extension>DAT</extension><description>PestPatrol data/scan strings</description></filetype>
 <filetype><header>50 47 50 64 4D 41 49 4E</header><extension>PGD</extension><description>PGP disk image</description></filetype>
 <filetype><header>50 49 43 54 00 08</header><extension>IMG</extension><description>ADEX Corp. ChromaGraph Graphics Card Bitmap Graphic</description></filetype>
@@ -321,7 +331,7 @@
 <filetype><header>52 61 72 21 1A 07 00</header><extension>RAR</extension><description>RAR (v4.x) compressed archive</description></filetype>
 <filetype><header>52 61 72 21 1A 07 01 00</header><extension>RAR</extension><description>RAR (v5) compressed archive</description></filetype>
 <filetype><header>52 65 74 75 72 6E 2D 50 61 74 68 3A 20</header><extension>EML</extension><description>Common header for e-mail</description></filetype>
-<filetype><header>?? ?? ?? ?? 53 43 43 41</header><extension>PF</extension><description>Windows prefetch</description></filetype>
+<filetype><header>?? ?? ?? ?? 53 43 43 41</header><extension>PF</extension><description>Windows prefetch (1st byte: 11=XP, 17=Vista/Win7, 1A=Win8.1)</description></filetype>
 <filetype><header>53 43 48 6C</header><extension>AST</extension><description>Need for Speed: Underground Audio</description></filetype>
 <filetype><header>53 43 4D 49</header><extension>IMG</extension><description>Img Software Set Bitmap</description></filetype>
 <filetype><header>53 44 50 58</header><extension>DPX</extension><description>Society of Motion Picture and Television Engineers (SMPTE)</description></filetype>
@@ -378,6 +388,7 @@
 <filetype><header>63 64 73 61 65 6E 63 72</header><extension>DMG</extension><description>Macintosh encrypted Disk image (v1)</description></filetype>
 <filetype><header>63 6F 6E 65 63 74 69 78</header><extension>VHD</extension><description>Virtual PC Virtual HD image</description></filetype>
 <filetype><header>63 75 73 68 00 00 00 02 00 00 00</header><extension>CSH</extension><description>Photoshop Custom Shape</description></filetype>
+<filetype><header>63 78 73 70 61 72 73 65</header><extension>VHD</extension><description>Virtual PC Virtual HD image dynamic disk</description></filetype>
 <filetype><header>64 00 00 00</header><extension>P10</extension><description>Intel PROset/Wireless Profile</description></filetype>
 <filetype><header>64 38 3A 61 6E 6E 6F 75 6E 63 65</header><extension>TORRENT</extension><description>Torrent</description></filetype>
 <filetype><header>64 65 78 0A</header><extension>DEX</extension><description>Dalvik executable (Android)</description></filetype>
@@ -389,17 +400,21 @@
 <filetype><header>?? ?? ?? ?? 66 74 79 70 33 67 70 35</header><extension>MP4</extension><description>MPEG-4 video</description></filetype>
 <filetype><header>?? ?? ?? ?? 66 74 79 70 4D 34 41 20</header><extension>M4A</extension><description>Apple Lossless Audio Codec</description></filetype>
 <filetype><header>?? ?? ?? ?? 66 74 79 70 4D 53 4E 56</header><extension>MP4</extension><description>MPEG-4 video</description></filetype>
+<filetype><header>?? ?? ?? ?? 66 74 79 70 61 76 69 66</header><extension>AVIF</extension><description>AV1 Image, based on Video 1 (AV1) codec</description></filetype>
+<filetype><header>?? ?? ?? ?? 66 74 79 70 68 65 69 63</header><extension>HEIC</extension><description>High Efficiency Image Container (HEIC)</description></filetype>
 <filetype><header>?? ?? ?? ?? 66 74 79 70 69 73 6F 6D</header><extension>MP4</extension><description>ISO Base Media (MPEG-4) v1</description></filetype>
 <filetype><header>?? ?? ?? ?? 66 74 79 70 6D 70 34 32</header><extension>M4V</extension><description>MPEG-4 video|QuickTime</description></filetype>
 <filetype><header>?? ?? ?? ?? 66 74 79 70 71 74 20 20</header><extension>MOV</extension><description>QuickTime movie</description></filetype>
 <filetype><header>67 49 00 00</header><extension>SHD</extension><description>Windows 2000/XP printer spool</description></filetype>
 <filetype><header>67 69 6D 70 20 78 63 66 20</header><extension>XCF</extension><description>GIMP eXperimental Computing Facility (XCF)</description></filetype>
 <filetype><header>68 49 00 00</header><extension>SHD</extension><description>Windows Server 2003 printer spool</description></filetype>
+<filetype><header>68 87 08 38 76 C1 48 4E B7 AE 04 04 6E 6C C7 52 01 00</header><extension>VSC</extension><description>Windows OS Volume Shadow Copy, index block header</description></filetype>
 <filetype><header>69 63 6E 73</header><extension>ICNS</extension><description>MacOS icon</description></filetype>
 <filetype><header>6C 33 33 6C</header><extension>DBB</extension><description>Skype user data (profile and contacts)</description></filetype>
 <filetype><header>?? ?? ?? ?? 6D 6F 6F 76</header><extension>MOV</extension><description>QuickTime movie</description></filetype>
 <filetype><header>6D 73 46 69 6C 74 65 72 4C 69 73 74</header><extension>TPL</extension><description>Internet Explorer v11 Tracking Protection List</description></filetype>
 <filetype><header>6D 75 6C 74 69 42 69 74 2E 69 6E 66 6F</header><extension>INFO</extension><description>MultiBit Bitcoin wallet information</description></filetype>
+<filetype><header>6E 65 74 63 64 66 20</header><extension>CDL</extension><description>NetCDF (Network Common Data Form) metadata</description></filetype>
 <filetype><header>6F 3C</header><extension>n/a</extension><description>Short Message Service (SMS) stored on a SIM</description></filetype>
 <filetype><header>6F 70 64 61 74 61 30 31</header><extension>n/a</extension><description>1Password 4 Cloud Keychain encrypted data</description></filetype>
 <filetype><header>72 65 67 66</header><extension>DAT</extension><description>Windows NT registry hive</description></filetype>
@@ -421,6 +436,7 @@
 <filetype><header>7A 62 65 78</header><extension>INFO</extension><description>ZoomBrowser Image Index (ZbThumbnal.info)</description></filetype>
 <filetype><header>7B 22 75 72 6C 22 3A 20 22 68 74 74 70 73 3A 2F</header><extension>GDOC, GDRAW</extension><description>Google Drive Document; Google Drive Drawing</description></filetype>
 <filetype><header>7B 0D 0A 6F 20</header><extension>LGC, LGD</extension><description>Windows application log</description></filetype>
+<filetype><header>7B 44 52 4D 50 44 4B 7D</header><extension>DRMX, DRMZ</extension><description>Drumlin Fully Secure PDF (requires Javelin PDF Reader and unique authorization code)</description></filetype>
 <filetype><header>7B 5C 70 77 69</header><extension>PWI</extension><description>Microsoft Windows Mobile personal note</description></filetype>
 <filetype><header>7B 5C 72 74 66</header><extension>RTF</extension><description>Rich text format word processing</description></filetype>
 <filetype><header>7C 4B C3 74 E1 C8 53 A4 79 B9 01 1D FC 4F DD 13</header><extension>CSD</extension><description>Huskygram, Poem, or Singer embroidery design</description></filetype>
@@ -442,6 +458,7 @@
 <filetype><header>9C CB CB 8D 13 75 D2 11 91 58 00 C0 4F 79 56 A4</header><extension>WAB</extension><description>Outlook address</description></filetype>
 <filetype><header>A1 B2 C3 D4</header><extension>n/a</extension><description>tcpdump (libpcap) capture (Linux/Unix)</description></filetype>
 <filetype><header>A1 B2 CD 34</header><extension>n/a</extension><description>Extended tcpdump (libpcap) capture (Linux/Unix)</description></filetype>
+<filetype><header>A3 DE B0</header><extension>HED</extension><description>HighEdit document</description></filetype>
 <filetype><header>A9 0D 00 00 00 00 00 00</header><extension>DAT</extension><description>Access Data FTK evidence</description></filetype>
 <filetype><header>AB 4B 54 58 20 31 31 BB 0D 0A 1A 0A</header><extension>KTX</extension><description>Khronos texture for OpenGL and OpenGL ES applications</description></filetype>
 <filetype><header>AC 9E BD 8F 00 00</header><extension>QDF</extension><description>Quicken data</description></filetype>
@@ -466,7 +483,7 @@
 <filetype><header>CF 11 E0 A1 B1 1A E1 00</header><extension>DOC</extension><description>Perfect Office document</description></filetype>
 <filetype><header>CF AD 12 FE</header><extension>DBX</extension><description>Outlook Express e-mail folder</description></filetype>
 <filetype><header>CF FA ED FE</header><extension>n/a</extension><description>Apple OS X ABI Mach-O binary (64-bit, reverse byte)</description></filetype>
-<filetype><header>D0 CF 11 E0 A1 B1 1A E1</header><extension>DOC, DOT, PPS, PPT, XLA, XLS, WIZ</extension><description>Object Linking and Embedding (OLE) Compound (CF)</description></filetype>
+<filetype><header>D0 CF 11 E0 A1 B1 1A E1</header><extension>DOC, DOT, PPS, PPT, XLA, XLS, WIZ</extension><description>Object Linking and Embedding (OLE) Compound (CF) (i.e. OLECF) </description></filetype>
 <filetype><header>D2 0A 00 00</header><extension>FTR</extension><description>GN Nettest WinPharoah filter</description></filetype>
 <filetype><header>D4 2A</header><extension>ARL, AUT</extension><description>AOL history (ARL) and typed URL (AUT)</description></filetype>
 <filetype><header>D4 C3 B2 A1</header><extension>n/a</extension><description>WinDump (winpcap) capture (Windows)</description></filetype>
